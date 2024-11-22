@@ -12,7 +12,25 @@ function App() {
     return (
     <>
      <h1>Reutilizando componentes</h1>
-     <MyCard/>
+     <MyCard
+     image = "public\imgs\mar-plata.png"
+     title="Lavken"
+     colorButton="info"
+     textButton = "A navegar"
+      /> {/*definimos los props que se pasaran a MyCard*/}
+<MyCard
+     image = "public\imgs\mar-plata.png"
+     title="Lavken"
+     colorButton="secondary"
+     textButton = "A navegar en gris"
+      />
+    <MyCard
+      image = "public\imgs\mar-plata.png"
+      title="Lavken"
+      colorButton="danger"
+      textButton = "A navegar en danger"
+       />
+
 
        {/* <Button>Botón de Bootstrap</Button>
       <Card style={{ width: '18rem' }}>

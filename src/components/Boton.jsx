@@ -1,9 +1,11 @@
 import { Button } from "react-bootstrap";
-const Boton = () => {
+
+const Boton = ({colorButton, textButton}) => {
     return (
         <>
-         <Button variant="primary">Boton dentro de un componente</Button>
-        </>
+        <Button variant = {colorButton}>{textButton}</Button>
+    
+         </> 
     )
 }
 export default Boton

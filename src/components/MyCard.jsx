@@ -1,13 +1,13 @@
 import { Card } from "react-bootstrap";
 import Boton from "./Boton";
-
-const myCard = () => {
+// agregamos props como argumentos en MyCard
+const myCard = ({image, title, colorButton, textButton}) => {
     return (
         <> <Card style={{ width: '18rem' }}>
-        <Card.Img variant="top" src='public\imgs\mar-plata.png'/>
+        <Card.Img variant="top" src={image}/>
         <Card.Body>
-          <Card.Title>Lavken</Card.Title>
-          <Boton/>
+          <Card.Title>{title}</Card.Title>
+          <Boton colorButton={colorButton} textButton={textButton}/>
         </Card.Body>
       </Card>
         </>
