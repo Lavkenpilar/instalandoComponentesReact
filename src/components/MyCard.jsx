@@ -11,3 +11,4 @@ const myCard = () => {
         </>
     )
 }
+export default myCard

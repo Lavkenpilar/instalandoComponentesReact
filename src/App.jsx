@@ -3,15 +3,18 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import Button from 'react-bootstrap/Button' 
-import Card from 'react-bootstrap/Card'
+{/*import Button from 'react-bootstrap/Button' 
+import Card from 'react-bootstrap/Card'*/}
+import MyCard from './components/MyCard'
 
 
 function App() {
     return (
     <>
-      <h1>Reutilizando componentes</h1>
-      <Button>Botón de Bootstrap</Button>
+     <h1>Reutilizando componentes</h1>
+     <MyCard/>
+
+       {/* <Button>Botón de Bootstrap</Button>
       <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src='public\imgs\mar-plata.png' />
       <Card.Body>
@@ -22,7 +25,7 @@ function App() {
         </Card.Text>
         <Button variant="primary">Go somewhere</Button>
       </Card.Body>
-    </Card>
+    </Card>*/}
     </>
   )
 }
