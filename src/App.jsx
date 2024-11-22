@@ -11,9 +11,9 @@ function App() {
     return (
     <>
       <h1>Reutilizando componentes</h1>
-      <Button>Boton de Bootstrap </Button> {/*utilizamos el componente*/}
+      <Button>Botón de Bootstrap</Button>
       <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="holder.js/100px180" />
+      <Card.Img variant="top" src='public\imgs\mar-plata.png' />
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
         <Card.Text>
